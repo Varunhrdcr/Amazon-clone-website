@@ -1,0 +1,179 @@
+/**All**/
+*{
+    margin: 0;
+    font-family:Courier;
+    border: border-box ;
+}
+/**Navbar**/
+div.nav-bar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/**2nd Navbar**/
+div.conav-bar{
+    background-color: #232f3e;
+    height: 39px;
+}
+
+/**main Logo**/
+/**First Box**/
+div.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+img.logo{
+    margin-top: 2px;
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.border {
+    padding: 2px;        
+}
+.border:hover {
+    cursor: pointer;
+    border-style:solid;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color:white;
+    border-style: visble;
+}
+/**2nd Box**/
+p.deliver{
+    color: #CCCCCC;
+    margin-left: 21px;
+    font-size: 0.85 rem;
+    font-weight: 600;
+}
+div.icon{
+    padding-right: 5px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+
+}
+p.india{
+    margin-left: 2px;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+/**3rd Box**/
+div.nav-search{
+    background-color: #b6b0b0;
+    height: 40px;
+    width: 620px;
+    border-width: 2px;
+    border-color: #0f1111;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.nav-search:hover{
+    border: 2px solid orange;
+}
+select.search{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 50px;
+    border: none;
+    text-align: center;
+    background-color: #F3F3F3;
+}
+.IP{
+    font-size: 1rem;
+    border: none;
+    width: 570px;
+}
+button.icon{
+    font-size: 1.25rem;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(241, 159, 6);
+}
+.count{
+    display: flex;
+}
+.in{
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+}
+.count i{
+    color: #b6b0b0;
+}
+.flag{
+    height: 16px;
+    width: 21px;
+}
+.span{
+    font-size: 0.7rem;
+}
+.acc{
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+
+.cart i{
+    font-size: 30px;
+}
+.cart{
+    display: flex;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+p.f{
+    margin-top: 15px;
+    font-weight: 600;
+
+}
+
+div.conav-bar{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+}
+
+.all{
+    display: flex;
+    font-weight: 900;
+    
+}
+.all p{
+    margin-left: 5px;
+    margin-right: 20px;
+}
+div.main-menu{
+    font-weight: 600;
+    display: flex;
+    width: 80%;
+    
+}
+div.main-menu p{
+    margin-left: 25px;
+}
+.last{
+    font-weight: bolder;
+}
+
+.hero-section img{
+    height: 890px;
+    width: 1756px;
+}
+.footer{
+    height: 26px;
+
+    background-color:  #232f3e;
+}
