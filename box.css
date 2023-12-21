@@ -1,0 +1,24 @@
+div.boxa {
+    display: inline-block;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  border: 1px solid rgb(5, 5, 5);
+  padding: 50px;
+  margin: 20px;
+  padding-bottom: 0px;
+}
+img.box1,
+img.box3,
+img.box4{
+    margin-left: -40px;
+}
+h2.deal{
+    margin-left: -41px;
+    margin-top: -40px;
+}
+p.shop{
+    margin-left: -41px;
+}
+img.box2{
+    margin-left: 40px ;
+}
